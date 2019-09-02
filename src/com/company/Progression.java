@@ -17,7 +17,7 @@ public class Progression {
         current++;
     }
 
-    public void printPrintProgression(int n) {
+    public void printProgression(int n) {
         System.out.println(nextValue());
 
         for (int i = 0; i < n; i++) {
